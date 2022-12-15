@@ -8,9 +8,62 @@ html {
     font-family: sans-serif;
 }
 
+header {
+    padding: 1rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 10;
+    background-color: white;
+}
+
+.left {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.grey {
+    color: rgb(95,99,103);
+}
+
+.grey:hover {
+    cursor: pointer;
+    color: rgb(187, 187, 187);
+    transition: 1s;
+}
+
+li {
+    list-style-type: none;
+}
+
+.logo {
+    width: 100px;
+}
+
+.logo:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+    transition: 1s;
+}
+
+.bottom-list {
+    display: flex;
+    flex-direction: column;
+}
+
+.link:hover {
+    color: #3367d6;
+    border-bottom: 2px solid #3367d6;
+    transform: scale(1.1);
+    transition: 1s;
+}
+
 .middle {
     width: 900px;
     margin: 0 auto;
+    margin-top: 12rem;
     display: flex;
     justify-content: center;
     flex-direction: column;

@@ -38,7 +38,29 @@ $arr_qa = [
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <header></header>
+    <header>
+        <div class="top">
+            <ul class="left">
+                <li>
+                    <img src="img/Google_2015_logo.svg.png" class="logo">
+                </li>
+                <li>
+                    <h3 class="grey">Privacy e termini</h3>
+                </li>
+            </ul>
+            <div class="right">
+            </div>
+        </div>
+        <div class="bottom">
+            <ul class="bottom-list">
+                <li class="link">Introduzione</li>
+                <li class="link">Norme sulla privacy</li>
+                <li class="link">Termini di servizio</li>
+                <li class="link">Tecnologie</li>
+                <li class="link">Domande frequenti</li>
+            </ul>
+        </div>
+    </header>
    <main>
    <div class="middle">
     <?php 
